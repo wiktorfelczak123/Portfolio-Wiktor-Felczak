@@ -1,0 +1,10 @@
+Case ID,Type,Scenario,Input or precondition,Expected result
+API-01,Positive,Check service health,GET /health,HTTP 200; status=ok
+API-02,Positive,Create valid delivery,All required fields valid,HTTP 201; response has id and status=accepted
+API-03,Negative,Registration missing,vehicle_registration omitted,HTTP 400; error.code=VALIDATION_ERROR
+API-04,Boundary,Volume is zero,volume_m3=0,HTTP 400; validation detail names volume_m3
+API-05,Boundary,Volume is negative,volume_m3=-1,HTTP 400; validation detail names volume_m3
+API-06,Positive,Retrieve created record,Use id from API-02,HTTP 200; id matches created record
+API-07,Negative,Duplicate client reference,Repeat API-02 with same client_reference,HTTP 409; error.code=DUPLICATE_REFERENCE
+API-08,Negative,Unknown delivery id,GET with an unused UUID,HTTP 404; error.code=NOT_FOUND
+API-09,Negative,Malformed JSON,POST body is not JSON,HTTP 400; error.code=INVALID_JSON

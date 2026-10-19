@@ -1,0 +1,70 @@
+openapi: 3.0.3
+info:
+  title: Portfolio Delivery API
+  version: 1.0.0
+  description: Fictional local API contract used for API and UAT practice.
+servers:
+  - url: http://127.0.0.1:4010
+paths:
+  /health:
+    get:
+      summary: Check service availability
+      responses:
+        '200':
+          description: Service is available
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [status]
+                properties:
+                  status: { type: string, example: ok }
+  /api/v1/deliveries:
+    post:
+      summary: Create a delivery record
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/DeliveryRequest' }
+      responses:
+        '201':
+          description: Record created
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Delivery' }
+        '400': { description: Invalid JSON or request fields }
+        '409': { description: Duplicate client reference }
+  /api/v1/deliveries/{deliveryId}:
+    get:
+      summary: Retrieve a delivery record
+      parameters:
+        - in: path
+          name: deliveryId
+          required: true
+          schema: { type: string, format: uuid }
+      responses:
+        '200':
+          description: Record found
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Delivery' }
+        '404': { description: Record not found }
+components:
+  schemas:
+    DeliveryRequest:
+      type: object
+      required: [vehicle_registration, client_reference, customer_id, volume_m3]
+      properties:
+        vehicle_registration: { type: string, minLength: 1, example: PO12345 }
+        client_reference: { type: string, minLength: 1, example: POSTMAN-1001 }
+        customer_id: { type: string, minLength: 1, example: CLIENT-001 }
+        volume_m3: { type: number, minimum: 0, exclusiveMinimum: true, example: 8.2 }
+    Delivery:
+      allOf:
+        - $ref: '#/components/schemas/DeliveryRequest'
+        - type: object
+          required: [id, status]
+          properties:
+            id: { type: string, format: uuid }
+            status: { type: string, enum: [accepted] }

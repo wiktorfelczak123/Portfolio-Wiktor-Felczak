@@ -1,0 +1,121 @@
+﻿Ticket_ID,Opened_Date,Category,Channel,Priority,Severity,Resolution_Hours,Escalated,Repeat_Issue,Status,Queue
+T-0001,2026-01-19,Aplikacja mobilna,Portal,P4,Low,40.2,No,No,Closed,L2
+T-0002,2026-02-01,Raporty,Portal,P2,High,18.6,Yes,No,Closed,L2
+T-0003,2026-03-11,Aplikacja mobilna,Portal,P2,High,17.3,Yes,Yes,Closed,L2
+T-0004,2026-04-01,Integracja,E-mail,P4,Low,39.6,No,Yes,Closed,L2
+T-0005,2026-01-20,Konto użytkownika,Portal,P4,Low,31.2,No,No,Closed,L2
+T-0006,2026-02-19,Konto użytkownika,Telefon,P2,High,11.9,Yes,Yes,Closed,L1
+T-0007,2026-03-16,Raporty,Portal,P1,Critical,13.4,Yes,No,Closed,L2
+T-0008,2026-04-08,Integracja,Telefon,P3,Medium,27.4,No,No,Closed,L2
+T-0009,2026-01-09,Aplikacja mobilna,Telefon,P3,Medium,24.4,No,No,Closed,L2
+T-0010,2026-02-09,Integracja,Portal,P4,Low,40.0,No,No,Closed,L1
+T-0011,2026-03-11,Raporty,E-mail,P2,High,22.9,No,No,Closed,L2
+T-0012,2026-04-24,Raporty,Telefon,P3,Medium,29.7,Yes,Yes,Closed,L2
+T-0013,2026-01-18,Dostęp,E-mail,P3,Medium,,No,No,Open,L2
+T-0014,2026-02-16,Raporty,E-mail,P3,Medium,19.3,No,No,Closed,L1
+T-0015,2026-03-01,Konto użytkownika,Portal,P2,High,11.3,Yes,No,Closed,L1
+T-0016,2026-04-05,Konto użytkownika,E-mail,P4,Low,34.9,No,No,Closed,L1
+T-0017,2026-01-06,Integracja,E-mail,P4,Low,38.5,No,Yes,Closed,L2
+T-0018,2026-02-21,Integracja,E-mail,P3,Medium,16.8,No,No,Closed,L2
+T-0019,2026-03-01,Płatności,E-mail,P3,Medium,26.7,No,No,Closed,L2
+T-0020,2026-04-16,Dostęp,Portal,P3,Medium,28.2,No,No,Closed,L2
+T-0021,2026-01-27,Raporty,Telefon,P3,Medium,21.8,No,Yes,Closed,L2
+T-0022,2026-02-19,Dostęp,Telefon,P3,Medium,31.2,Yes,Yes,Closed,L2
+T-0023,2026-03-08,Dostęp,E-mail,P3,Medium,20.0,No,No,Closed,L2
+T-0024,2026-04-21,Dostęp,E-mail,P3,Medium,25.2,No,Yes,Closed,L1
+T-0025,2026-01-22,Płatności,Portal,P3,Medium,30.6,Yes,Yes,Closed,L2
+T-0026,2026-02-23,Integracja,E-mail,P2,High,,No,No,Open,L2
+T-0027,2026-03-20,Integracja,Portal,P4,Low,29.8,No,No,Closed,L2
+T-0028,2026-04-12,Aplikacja mobilna,E-mail,P3,Medium,20.9,No,No,Closed,L1
+T-0029,2026-01-22,Aplikacja mobilna,E-mail,P3,Medium,18.7,Yes,No,Closed,L2
+T-0030,2026-02-12,Aplikacja mobilna,Telefon,P3,Medium,25.3,No,Yes,Closed,L2
+T-0031,2026-03-14,Aplikacja mobilna,Portal,P4,Low,25.3,No,Yes,Closed,L2
+T-0032,2026-04-26,Raporty,Telefon,P2,High,10.8,No,No,Closed,L2
+T-0033,2026-01-14,Aplikacja mobilna,Telefon,P2,High,17.9,Yes,No,Closed,L2
+T-0034,2026-02-01,Aplikacja mobilna,E-mail,P4,Low,29.7,No,No,Closed,L2
+T-0035,2026-03-03,Płatności,Telefon,P3,Medium,23.5,No,No,Closed,L1
+T-0036,2026-04-01,Konto użytkownika,E-mail,P3,Medium,27.8,No,Yes,Closed,L2
+T-0037,2026-01-09,Aplikacja mobilna,E-mail,P3,Medium,18.1,No,Yes,Closed,L2
+T-0038,2026-02-09,Dostęp,Portal,P3,Medium,29.9,Yes,No,Closed,L2
+T-0039,2026-03-03,Raporty,Telefon,P3,Medium,,No,No,Open,L1
+T-0040,2026-04-20,Integracja,Portal,P3,Medium,29.9,No,No,Closed,L2
+T-0041,2026-01-25,Płatności,E-mail,P4,Low,39.1,No,Yes,Closed,L1
+T-0042,2026-02-18,Płatności,E-mail,P4,Low,38.9,No,No,Closed,L2
+T-0043,2026-03-20,Integracja,Portal,P4,Low,35.8,No,No,Closed,L1
+T-0044,2026-04-09,Aplikacja mobilna,Portal,P3,Medium,29.3,No,No,Closed,L1
+T-0045,2026-01-05,Płatności,E-mail,P4,Low,37.4,No,No,Closed,L2
+T-0046,2026-02-23,Raporty,Telefon,P2,High,14.6,No,No,Closed,L2
+T-0047,2026-03-07,Integracja,Portal,P4,Low,30.8,No,No,Closed,L1
+T-0048,2026-04-20,Aplikacja mobilna,E-mail,P4,Low,35.3,No,No,Closed,L1
+T-0049,2026-01-02,Płatności,Portal,P2,High,9.7,Yes,No,Closed,L1
+T-0050,2026-02-25,Raporty,Telefon,P2,High,11.7,No,Yes,Closed,L1
+T-0051,2026-03-06,Dostęp,Portal,P2,High,13.8,No,No,Closed,L1
+T-0052,2026-04-08,Integracja,E-mail,P3,Medium,,No,No,Open,L2
+T-0053,2026-01-13,Integracja,Portal,P2,High,17.7,Yes,Yes,Closed,L1
+T-0054,2026-02-16,Raporty,Telefon,P3,Medium,20.4,No,Yes,Closed,L2
+T-0055,2026-03-10,Dostęp,Portal,P3,Medium,18.4,No,No,Closed,L1
+T-0056,2026-04-19,Aplikacja mobilna,E-mail,P4,Low,34.0,No,No,Closed,L2
+T-0057,2026-01-06,Integracja,E-mail,P2,High,12.3,No,Yes,Closed,L2
+T-0058,2026-02-04,Integracja,E-mail,P3,Medium,29.6,Yes,No,Closed,L1
+T-0059,2026-03-17,Aplikacja mobilna,E-mail,P1,Critical,5.3,Yes,No,Closed,L1
+T-0060,2026-04-09,Konto użytkownika,Telefon,P4,Low,25.0,No,No,Closed,L2
+T-0061,2026-01-07,Płatności,E-mail,P3,Medium,22.2,No,Yes,Closed,L1
+T-0062,2026-02-14,Konto użytkownika,E-mail,P4,Low,27.0,No,No,Closed,L1
+T-0063,2026-03-12,Płatności,Telefon,P4,Low,35.0,No,No,Closed,L2
+T-0064,2026-04-21,Płatności,E-mail,P4,Low,27.4,Yes,No,Closed,L2
+T-0065,2026-01-08,Konto użytkownika,Telefon,P3,Medium,,No,No,Open,L2
+T-0066,2026-02-11,Raporty,Portal,P2,High,11.3,No,No,Closed,L2
+T-0067,2026-03-13,Konto użytkownika,Portal,P2,High,19.0,No,Yes,Closed,L2
+T-0068,2026-04-14,Płatności,E-mail,P2,High,16.0,Yes,No,Closed,L1
+T-0069,2026-01-10,Dostęp,Portal,P3,Medium,31.1,Yes,No,Closed,L2
+T-0070,2026-02-26,Konto użytkownika,E-mail,P4,Low,31.6,No,No,Closed,L2
+T-0071,2026-03-01,Dostęp,E-mail,P3,Medium,19.2,No,Yes,Closed,L2
+T-0072,2026-04-27,Raporty,Telefon,P3,Medium,25.3,No,No,Closed,L1
+T-0073,2026-01-25,Integracja,Telefon,P3,Medium,29.0,No,Yes,Closed,L2
+T-0074,2026-02-09,Konto użytkownika,Telefon,P4,Low,36.8,No,No,Closed,L2
+T-0075,2026-03-12,Integracja,Telefon,P3,Medium,30.4,Yes,No,Closed,L2
+T-0076,2026-04-04,Płatności,Portal,P3,Medium,24.1,No,No,Closed,L1
+T-0077,2026-01-05,Dostęp,Telefon,P4,Low,31.4,No,No,Closed,L2
+T-0078,2026-02-05,Płatności,Portal,P3,Medium,,No,No,Open,L2
+T-0079,2026-03-05,Raporty,Portal,P2,High,11.1,Yes,No,Closed,L2
+T-0080,2026-04-24,Integracja,Portal,P3,Medium,22.3,No,Yes,Closed,L2
+T-0081,2026-01-08,Aplikacja mobilna,E-mail,P4,Low,37.3,No,No,Closed,L2
+T-0082,2026-02-04,Płatności,E-mail,P2,High,15.5,No,Yes,Closed,L2
+T-0083,2026-03-25,Integracja,E-mail,P3,Medium,24.7,No,No,Closed,L2
+T-0084,2026-04-09,Dostęp,Telefon,P3,Medium,27.1,No,Yes,Closed,L1
+T-0085,2026-01-04,Płatności,Portal,P3,Medium,22.9,No,No,Closed,L1
+T-0086,2026-02-16,Płatności,E-mail,P1,Critical,3.0,Yes,No,Closed,L1
+T-0087,2026-03-14,Raporty,E-mail,P3,Medium,17.9,No,No,Closed,L2
+T-0088,2026-04-04,Raporty,Portal,P4,Low,29.4,No,No,Closed,L2
+T-0089,2026-01-08,Płatności,Telefon,P2,High,7.4,Yes,No,Closed,L2
+T-0090,2026-02-06,Raporty,Telefon,P3,Medium,19.7,No,No,Closed,L1
+T-0091,2026-03-27,Integracja,E-mail,P3,Medium,,Yes,No,Open,L2
+T-0092,2026-04-25,Konto użytkownika,E-mail,P3,Medium,22.7,No,No,Closed,L2
+T-0093,2026-01-24,Integracja,Telefon,P3,Medium,18.5,No,Yes,Closed,L2
+T-0094,2026-02-17,Dostęp,E-mail,P3,Medium,24.3,No,No,Closed,L2
+T-0095,2026-03-13,Integracja,E-mail,P2,High,18.3,No,No,Closed,L2
+T-0096,2026-04-21,Konto użytkownika,E-mail,P2,High,10.7,No,No,Closed,L1
+T-0097,2026-01-09,Raporty,E-mail,P3,Medium,21.7,Yes,Yes,Closed,L2
+T-0098,2026-02-13,Integracja,E-mail,P3,Medium,18.0,No,No,Closed,L2
+T-0099,2026-03-02,Dostęp,Portal,P4,Low,36.7,No,Yes,Closed,L2
+T-0100,2026-04-09,Integracja,Portal,P3,Medium,24.4,No,No,Closed,L1
+T-0101,2026-01-18,Integracja,E-mail,P4,Low,33.5,No,Yes,Closed,L1
+T-0102,2026-02-04,Konto użytkownika,E-mail,P3,Medium,28.5,No,No,Closed,L2
+T-0103,2026-03-22,Integracja,Portal,P2,High,18.8,Yes,Yes,Closed,L2
+T-0104,2026-04-11,Płatności,E-mail,P3,Medium,,No,No,Open,L1
+T-0105,2026-01-04,Dostęp,Telefon,P4,Low,26.7,No,Yes,Closed,L1
+T-0106,2026-02-25,Płatności,Portal,P1,Critical,16.0,Yes,No,Closed,L2
+T-0107,2026-03-10,Integracja,E-mail,P3,Medium,30.9,No,Yes,Closed,L2
+T-0108,2026-04-23,Płatności,E-mail,P3,Medium,23.8,No,Yes,Closed,L2
+T-0109,2026-01-23,Dostęp,E-mail,P4,Low,25.9,No,No,Closed,L2
+T-0110,2026-02-20,Dostęp,Telefon,P4,Low,28.6,No,No,Closed,L2
+T-0111,2026-03-25,Aplikacja mobilna,E-mail,P2,High,10.1,No,No,Closed,L2
+T-0112,2026-04-20,Raporty,Portal,P4,Low,37.2,No,No,Closed,L1
+T-0113,2026-01-09,Raporty,E-mail,P3,Medium,25.9,No,No,Closed,L1
+T-0114,2026-02-11,Konto użytkownika,Portal,P2,High,22.9,No,Yes,Closed,L2
+T-0115,2026-03-04,Aplikacja mobilna,E-mail,P1,Critical,4.4,Yes,Yes,Closed,L2
+T-0116,2026-04-16,Konto użytkownika,E-mail,P3,Medium,19.2,Yes,No,Closed,L1
+T-0117,2026-01-20,Raporty,E-mail,P3,Medium,,No,No,Open,L1
+T-0118,2026-02-11,Integracja,Telefon,P3,Medium,28.2,Yes,No,Closed,L2
+T-0119,2026-03-15,Aplikacja mobilna,E-mail,P4,Low,28.8,No,No,Closed,L1
+T-0120,2026-04-07,Płatności,Portal,P3,Medium,18.0,No,No,Closed,L2
