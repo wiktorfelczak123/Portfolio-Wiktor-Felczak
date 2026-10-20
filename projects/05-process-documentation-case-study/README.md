@@ -1,23 +1,20 @@
-# Dokumentacja wdrożeniowa i test wiedzy
+# Studium dokumentacji wdrożeniowej i onboardingu
 
-Zanonimizowany opis pracy nad dokumentacją dla użytkowników biznesowych i uporządkowaniem wiedzy zespołu. Nie zawiera nazwy pracodawcy, produktu, danych klientów ani kopii wewnętrznych materiałów.
+Zanonimizowane podsumowanie pracy nad materiałami użytkowników i przekazywaniem wiedzy zespołowi. Oryginalne dokumenty, nazwy systemów i treść testu nie są publikowane.
 
-## Cel
+## Wkład
 
-Ułatwić firmom korzystanie z systemu i dać zespołowi wspólny zestaw materiałów do przekazywania wiedzy.
+- samodzielnie opracowałem 10 źródeł dokumentacji dla firm asenizacyjnych;
+- przygotowałem instrukcje, procedury, protokoły odbioru i materiały wideo;
+- współtworzyłem z przełożoną 9-etapowy proces wdrożeniowy, uzupełniony o monitorowanie opóźnień i procedurę szkoleniową;
+- wykorzystałem Google NotebookLM do wygenerowania testu wiedzy na podstawie źródeł; test jest wykorzystywany w zespole;
+- przeprowadziłem szkolenia dla ponad 400 użytkowników.
 
-## Zakres pracy
+## Zaobserwowany rezultat
 
-- Współtworzyłem z przełożoną dziewięcioetapowy proces wdrożeniowy, dodając monitorowanie opóźnień i uzupełniając go o procedurę szkoleniową.
-- Samodzielnie opracowałem 10 źródeł dokumentacji dla firm korzystających z systemu.
-- Wczytałem materiały do Google NotebookLM i wygenerowałem na ich podstawie test wiedzy, który jest wykorzystywany w zespole.
-- Przeprowadziłem szkolenia dla ponad 400 użytkowników i przygotowywałem instrukcje, protokoły oraz materiały wideo.
+Po uporządkowaniu instrukcji w bazie wiedzy liczba powtarzalnych zgłoszeń zmniejszyła się o około 15%.
 
-## Obserwowane efekty
+## Zakres publikacji
 
-Po zmianie procesu obserwowałem mniej firm bez kompletnych danych przed uruchomieniem automatyzacji oraz mniej pilnych próśb o pomoc tuż przed startem. Szacuję, że odsetek nieprzygotowanych firm zmniejszył się z około 70% do około 30%; jest to własna estymacja, a nie wynik formalnego pomiaru.
-
-## Ochrona materiałów
-
-Oryginalne źródła i wygenerowany test pozostają poza repozytorium. Publiczny przykład metod porządkowania wiedzy, oparty na fikcyjnych materiałach, znajduje się w [demonstracji bazy wiedzy](../04-knowledge-check-demo/README.md).
+[Case study dokumentacji](../04-knowledge-check-demo/README.md) zawiera publiczny rejestr źródeł i checklistę kontroli jakości testu. Materiały są opracowane do portfolio, nie są kopią dokumentów wewnętrznych.
 
