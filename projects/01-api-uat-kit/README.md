@@ -1,36 +1,31 @@
-# Zestaw testów API i UAT
+# Integracje API i diagnostyka problemu aplikacji
 
-Demonstracyjny pakiet do sprawdzania przykładowej integracji systemu obsługi zleceń. Lokalny mock API zapisuje rekordy w pamięci procesu, dzięki czemu testy można wykonywać bez konta w zewnętrznej usłudze i bez prawdziwych danych.
+Zanonimizowany opis dwóch sytuacji z pracy przy wdrożeniach systemu B2B. Materiał przedstawia zakres koordynacji integracji oraz sposób przygotowania informacji dla dostawcy podczas problemu z aplikacją.
 
-## Zakres
+## Przypadek: problem z aplikacją mobilną
 
-- kontrakt API w OpenAPI 3.0.3;
-- przypadki pozytywne, negatywne i brzegowe;
-- kolekcja Postman z asercjami odpowiedzi;
-- prosty serwer demonstracyjny w Pythonie, wyłącznie ze standardowej biblioteki.
+Po aktualizacji po stronie dostawcy pojawił się problem z działaniem aplikacji mobilnej. W ramach diagnozy sprawdziłem dostępne logi aplikacji w panelu Plesk, opisałem obserwacje i przekazałem raport właściwemu dostawcy. Następnie monitorowałem poprawkę.
 
-## Uruchomienie
+Praca w Plesk ograniczała się do odczytu logów aplikacji. Nie obejmowała administracji serwerem ani zmian infrastruktury.
 
-1. Wymagany jest Python 3.10 lub nowszy.
-2. W terminalu w tym katalogu uruchom `python mock_server.py`.
-3. W Postmanie zaimportuj `postman_collection.json`.
-4. Utwórz środowisko z `baseUrl` ustawionym na `http://127.0.0.1:4010`.
-5. Uruchom żądania w kolejności z kolekcji. Serwer działa lokalnie i przechowuje dane tylko do chwili zamknięcia procesu.
+## Koordynacja integracji
 
-## Przypadki
+W projektach uzgadniałem z klientem i dostawcą wymagania połączenia systemów, w tym kwestie sieci, portów, certyfikatów i protokołów. Moim zadaniem było dopilnowanie właścicieli zależności i przekazywanie dostawcy informacji potrzebnych do diagnozy.
 
-| ID | Scenariusz | Oczekiwany wynik |
-|---|---|---|
-| API-01 | Stan usługi | HTTP 200 i `status=ok` |
-| API-02 | Utworzenie poprawnego zlecenia | HTTP 201, zwrócony identyfikator |
-| API-03 | Brak rejestracji pojazdu | HTTP 400 z kodem `VALIDATION_ERROR` |
-| API-04 | Ujemna objętość | HTTP 400 z kodem `VALIDATION_ERROR` |
-| API-05 | Pobranie utworzonego zlecenia | HTTP 200 i zgodny identyfikator |
-| API-06 | Powtórzony `client_reference` | HTTP 409 z kodem `DUPLICATE_REFERENCE` |
-| API-07 | Nieistniejące zlecenie | HTTP 404 z kodem `NOT_FOUND` |
+W jednym z projektów zdalne uporządkowanie konfiguracji pozwoliło wznowić pracę wstrzymaną przez prawie dwa lata.
 
-Szczegółowa macierz znajduje się w `test-cases.csv`, a kontrakt w `openapi.yaml`.
+## Karta przekazania problemu
 
-## Ograniczenia demonstracji
+W repozytorium znajduje się [zanonimizowany szablon raportu dla dostawcy](incident-handoff-template.md). To opracowanie do portfolio, a nie kopia raportu z firmy. Nie publikuje identyfikatorów klientów, adresów, logów ani danych dostępowych.
 
-Mock nie uwierzytelnia użytkowników, nie zapisuje danych po zamknięciu i nie odwzorowuje produkcyjnej integracji z urządzeniem lub dostawcą. Testy mają charakter przykładowy i nie potwierdzają zgodności z konkretnym systemem.
+## Zakres odpowiedzialności
+
+- zebranie objawów, zakresu wpływu i czasu wystąpienia;
+- sprawdzenie dostępnych logów aplikacji w panelu Plesk;
+- przygotowanie czytelnego raportu i przekazanie go dostawcy;
+- śledzenie poprawki oraz ustalenie dalszego właściciela działania.
+
+Nie deklaruję administracji serwerami ani samodzielnego wdrażania poprawek infrastrukturalnych.
+
+Pliki mock API, OpenAPI i Postmana w tym katalogu pochodzą z wcześniejszego ćwiczenia technicznego. Nie są odwzorowaniem integracji z projektu zawodowego ani dowodem działania produkcyjnego.
+
