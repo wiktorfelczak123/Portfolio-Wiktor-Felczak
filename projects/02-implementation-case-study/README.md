@@ -1,11 +1,23 @@
-# Studium przypadku wdrożenia systemu B2B
+# Koordynacja wdrożeń B2B
 
-Fikcyjny scenariusz wdrożenia portalu do rejestrowania odbiorów i obsługi dokumentów dla organizacji komunalnej. Materiał pokazuje sposób planowania wdrożenia, uzgadniania zależności i przygotowania użytkowników.
+Zanonimizowane podsumowanie pracy przy wdrażaniu systemu B2B dla firm asenizacyjnych i zlewni. Materiał opisuje rzeczywistą skalę i sposób pracy, bez nazw klientów, dokumentów wewnętrznych ani harmonogramu konkretnej firmy.
 
-## Pliki
+## Zakres odpowiedzialności
 
-- `implementation-plan.md` – założenia, harmonogram 30-dniowy, role, zależności, ryzyka, UAT i gotowość do startu.
+- prowadzenie klienta od kick-offu do uruchomienia produkcyjnego;
+- uzgadnianie właścicieli zadań po stronie klienta, dostawcy i zespołu;
+- tworzenie planów prac obejmujących około 30 dni oraz monitorowanie zależności i opóźnień;
+- współtworzenie 9-etapowego procesu wdrożeniowego, w tym monitorowania opóźnień i procedury szkoleniowej.
 
-## Jak czytać
+## Rezultaty
 
-To przykład planu dla wymyślonej organizacji i wymyślonego produktu. Daty opisują dni robocze od kickoffu, a nie prawdziwy projekt. Kryteria akceptacji są lokalnymi założeniami demonstracji, nie wymaganiami konkretnego klienta.
+- 13 wdrożeń uruchomionych w około 8 miesięcy;
+- średnio około 18 dni roboczych od kick-offu do startu;
+- 8 wdrożeń zakończonych w standardowym, około miesięcznym planie;
+- do 10 projektów prowadzonych równolegle;
+- własna estymacja udziału nieprzygotowanych firm przed startem zmniejszyła się z około 70% do około 30%; nie był to formalny pomiar.
+
+## Materiał do portfolio
+
+[Plan referencyjny wdrożenia](implementation-plan.md) pokazuje etapy, punkty kontroli i sposób rejestrowania zależności. Jest publicznym opracowaniem na podstawie praktyki zawodowej, a nie kopią wewnętrznego planu ani zapisem jednego projektu.
+
