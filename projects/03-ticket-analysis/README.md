@@ -1,22 +1,22 @@
-# Analiza zgłoszeń wsparcia L1/L2
+# UAT i jakość danych
 
-Mały projekt analityczny na syntetycznym zbiorze zgłoszeń. Łączy proste zapytania SQLite z arkuszem Excel, który pokazuje wolumen, eskalacje, powtarzalność i czas rozwiązania.
+Zanonimizowany opis rzeczywistej pracy nad testami zmian i poprawą spójności danych. Nie publikuje rekordów klientów, zrzutów z systemu ani wyników, których nie da się bezpiecznie uogólnić.
 
-## Pliki
+## Zakres pracy
 
-- `data/tickets.csv` – 120 fikcyjnych rekordów, bez danych osobowych i rzeczywistych informacji o klientach.
-- `ticket-analysis.xlsx` – arkusz `Summary` z formułami i wykresami oraz arkusz `Tickets` z danymi.
-- `sql/analysis.sql` – zapytania SQLite do analizy kategorii, eskalacji, trendu miesięcznego i długich spraw.
-- `data-dictionary.md` – definicje pól i ograniczenia interpretacji.
+- współdefiniowanie i testowanie z deweloperami ponad 20 usprawnień;
+- przygotowywanie scenariuszy UAT dla ścieżek pozytywnych, negatywnych i skrajnych;
+- dokumentowanie błędów, przekazywanie ich do poprawy i wykonywanie retestów;
+- zaproponowanie normalizacji numerów rejestracyjnych oraz samodzielne wyjaśnianie rozbieżności w danych.
 
-## Najważniejsze miary
+## Rezultaty
 
-Podsumowanie oblicza liczbę zgłoszeń, liczbę i udział eskalacji, medianę godzin rozwiązania dla rekordów z uzupełnionym czasem oraz rozbicie według kategorii i miesiąca. Formuły są widoczne w arkuszu, a pełne dane pozostają na osobnej karcie.
+- normalizacja ograniczyła niezgodności o około 60%;
+- ręcznie wyjaśniono setki rozbieżności, w tym ponad 800 rekordów na jednej zlewni.
 
-## Uruchomienie zapytań
+## Materiały
 
-1. Utwórz lokalną bazę SQLite.
-2. Zaimportuj `data/tickets.csv` do tabeli `tickets`, zachowując nagłówki jako nazwy kolumn.
-3. Wykonaj zapytania z `sql/analysis.sql`.
+[Checklista UAT](uat-checklist.md) to publiczny szablon oparty na praktyce testowania, nie kopia wewnętrznego rejestru. [Sposób interpretacji wyników](data-dictionary.md) opisuje zakres danych, których nie udostępniam.
 
-Wartości służą wyłącznie do demonstracji. Nie należy opisywać ich jako rzeczywistych wyników pracy ani przenosić do CV jako osiągnięć.
+W katalogu pozostały pliki dawnej demonstracji analizy zgłoszeń. Ich syntetyczne dane nie są częścią tego case study ani dowodem osiągnięć zawodowych.
+
