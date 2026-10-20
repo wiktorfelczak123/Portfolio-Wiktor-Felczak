@@ -1,81 +1,48 @@
-# Plan wdrożenia portalu obsługi odbiorów
+# Plan referencyjny wdrożenia B2B
 
-## 1. Cel i zakres
+Publiczne opracowanie przygotowane na podstawie doświadczenia zawodowego. Przebieg, nazwy etapów i terminy są uogólnione; nie odwzorowują 1:1 procedury pracodawcy ani harmonogramu konkretnego klienta.
 
-**Scenariusz:** fikcyjna spółka komunalna wdraża portal do rejestrowania zleceń odbioru, przekazywania danych do systemu stacji i udostępniania dokumentów klientom.
+## Etapy i punkty kontroli
 
-**Cel demonstracji:** uporządkować zadania klienta, dostawcy i zespołu wdrożeniowego tak, aby zależności techniczne, testy i szkolenie były widoczne przed uruchomieniem.
+| Etap | Co porządkuje | Punkt kontroli |
+|---|---|---|
+| 1. Kick-off i zakres | Cel, procesy objęte wdrożeniem, kontakty i oczekiwany termin | Strony potwierdziły zakres i właścicieli |
+| 2. Odpowiedzialności | Zadania klienta, dostawcy i koordynatora | Każde zadanie ma właściciela i termin |
+| 3. Gotowość organizacyjna | Dane, dostępność użytkowników i terminy spotkań | Braki mają przypisane działania |
+| 4. Zależności techniczne | Wymagania integracji, sieci, portów, certyfikatów i protokołów | Właściciele systemów potwierdzili wymagania |
+| 5. Konfiguracja i integracja | Konfiguracja oraz potwierdzenie wymiany danych | Wynik testu i otwarte problemy są zapisane |
+| 6. UAT i poprawki | Scenariusze, błędy, retesty i akceptacja użytkowników | Blokery mają decyzję i właściciela |
+| 7. Szkolenie | Przygotowanie użytkowników i materiałów | Uzgodniono grupy i sposób uzupełnienia wiedzy |
+| 8. Go/no-go i start | Gotowość procesu, wsparcie i decyzja o uruchomieniu | Decyzja i warunki startu są potwierdzone |
+| 9. Stabilizacja i przekazanie | Otwarte sprawy, kontakty i dalsze kroki | Każda sprawa ma właściciela po starcie |
 
-**W zakresie:** konfiguracja organizacji i użytkowników, test połączenia z systemem stacji, UAT, instruktaż, decyzja go/no-go i przekazanie do wsparcia.
+## Przykładowy układ planu na około 30 dni roboczych
 
-**Poza zakresem:** migracja historycznych danych, zmiany w systemie dostawcy, administracja infrastrukturą klienta i gwarancja wyników biznesowych.
+To rozkład referencyjny do dostosowania do dostępności klienta i dostawców, a nie historyczny harmonogram konkretnego wdrożenia.
 
-## 2. Plan 30 dni roboczych
+| Okres orientacyjny | Główne działania |
+|---|---|
+| Dni 1–3 | Kick-off, zakres, kontakty i właściciele |
+| Dni 4–8 | Gotowość organizacyjna i uzgodnienie zależności technicznych |
+| Dni 9–15 | Konfiguracja, integracja i pierwsze sprawdzenia |
+| Dni 16–21 | UAT, rejestracja błędów i retesty |
+| Dni 22–26 | Szkolenie użytkowników i potwierdzenie gotowości |
+| Dni 27–30 | Decyzja go/no-go, uruchomienie, stabilizacja i przekazanie |
 
-| Etap | Termin | Właściciel prowadzący | Rezultat / kryterium przejścia |
-|---|---:|---|---|
-| Kickoff i potwierdzenie zakresu | D1–D3 | Koordynator wdrożenia | Zakres, kontakty, odpowiedzialności i zależności zatwierdzone |
-| Przygotowanie środowiska | D4–D8 | IT klienta + dostawca | Dostępy testowe, adresy, porty i certyfikaty sprawdzone przez właścicieli systemów |
-| Konfiguracja i integracja | D9–D15 | Dostawca + koordynator | Konfiguracja gotowa; podstawowa wymiana danych potwierdzona |
-| UAT i poprawki | D16–D21 | Użytkownicy kluczowi | Przypadki UAT wykonane, błędy opisane i przypisane, blokery zamknięte |
-| Szkolenie i gotowość | D22–D26 | Koordynator + klient | Użytkownicy przeszkoleni, procedury i lista kontaktów dostępne |
-| Go/no-go i uruchomienie | D27–D28 | Sponsor klienta | Decyzja zapisana; plan wycofania i kanał zgłoszeń potwierdzone |
-| Stabilizacja i przekazanie | D29–D30 | Wsparcie + klient | Otwarte sprawy przekazane, właściciele i następne kroki ustalone |
+## Rejestr zależności i opóźnień
 
-Terminy są przykładowe. Ograniczenia IT klienta i terminy dostawcy mogą przesunąć etapy zależne; zmiana terminu powinna mieć wskazaną przyczynę, właściciela i wpływ na start.
+Dla każdego zadania warto zapisać: etap, opis zależności, właściciela, planowaną datę, aktualny status, przyczynę opóźnienia, wpływ na kolejne etapy, uzgodnione działanie i termin następnej aktualizacji. W ten sposób ryzyko dla terminu startu jest widoczne odpowiednio wcześnie.
 
-## 3. Role i odpowiedzialności
+## Gotowość do startu
 
-| Obszar | Klient | Koordynator wdrożenia | Dostawca systemu stacji | Zespół wsparcia |
-|---|---|---|---|---|
-| Zakres i osoby kontaktowe | A/R | R | C | I |
-| Sieć, certyfikaty i dostępność IT | A/R | C | R za własny system | I |
-| Konfiguracja portalu | C | A/R | C | I |
-| UAT i akceptacja biznesowa | A/R | R | C | I |
-| Poprawki po stronie dostawcy | I | C | A/R | I |
-| Szkolenie użytkowników | A/R | R | I | C |
-| Go/no-go | A | R | C | C |
-| Przekazanie zgłoszeń | C | A/R | C | R |
+- [ ] Zakres, kontakty i odpowiedzialności są potwierdzone.
+- [ ] Zależności klienta i dostawców mają właścicieli oraz aktualny status.
+- [ ] Kluczowe scenariusze UAT zakończyły się pozytywnie albo mają zaakceptowane obejście.
+- [ ] Błędy blokujące mają decyzję, właściciela i następny termin.
+- [ ] Użytkownicy znają podstawowe zadania oraz kanał zgłaszania problemów.
+- [ ] Zespół uzgodnił sposób przekazania otwartych spraw po uruchomieniu.
 
-Legenda: **R** – wykonuje, **A** – odpowiada za decyzję, **C** – konsultowany, **I** – informowany.
+## Efekty udokumentowane w doświadczeniu
 
-## 4. Zależności i ryzyka
+W ciągu około 8 miesięcy uruchomiono 13 wdrożeń; średni czas od kick-offu do startu wynosił około 18 dni roboczych, a równolegle prowadzono do 10 projektów. Osiem wdrożeń zakończono w standardowym, około miesięcznym planie. Szacunek udziału nieprzygotowanych firm przed automatyzacją spadł z około 70% do około 30%; była to własna estymacja, nie formalny pomiar.
 
-| Ryzyko / zależność | Sygnał ostrzegawczy | Działanie | Właściciel |
-|---|---|---|---|
-| Brak gotowości sieci lub certyfikatów | Brak potwierdzenia przed końcem D8 | Wskazać wymagania i właściciela po stronie klienta; aktualizować wpływ na harmonogram | IT klienta |
-| Niedostępność dostawcy | Brak terminu testu integracyjnego | Zarezerwować termin podczas kickoffu; eskalować zależność z datą potrzebną | Koordynator |
-| Użytkownicy nie mają czasu na UAT | Nieobsadzone przypadki testowe | Uzgodnić zastępstwa i okna testowe przed D16 | Klient |
-| Błąd blokujący test | Brak obejścia lub właściciela poprawki | Zarejestrować kroki, dane, wpływ, dowód i termin następnej aktualizacji | Koordynator + dostawca |
-| Niska frekwencja na szkoleniu | Brak listy uczestników przed D22 | Uzgodnić grupy i materiały; zaplanować krótkie uzupełnienie | Klient |
-
-## 5. UAT – przykładowe scenariusze
-
-| ID | Scenariusz | Oczekiwany rezultat | Priorytet |
-|---|---|---|---|
-| UAT-01 | Zalogowanie użytkownika z aktywnym kontem | Użytkownik widzi funkcje przypisane do roli | Wysoki |
-| UAT-02 | Próba wejścia na funkcję bez uprawnienia | Dostęp jest odmówiony; dane nie są ujawnione | Wysoki |
-| UAT-03 | Utworzenie poprawnego zlecenia | Zlecenie zapisane z potwierdzeniem i identyfikatorem | Wysoki |
-| UAT-04 | Brak wymaganego pola w zleceniu | Formularz wskazuje brakujące pole i nie zapisuje rekordu | Średni |
-| UAT-05 | Wysłanie zlecenia do integracji | Status i wynik wymiany danych są widoczne | Wysoki |
-| UAT-06 | Niedostępność systemu stacji | Błąd jest czytelny, a sprawa możliwa do ponowienia lub eskalacji | Wysoki |
-| UAT-07 | Wyszukanie dokumentu po numerze zlecenia | Zwracany jest właściwy dokument lub jasny brak wyniku | Średni |
-| UAT-08 | Ponowne wysłanie tej samej referencji | Użytkownik otrzymuje kontrolowany komunikat o duplikacie | Średni |
-| UAT-09 | Dezaktywacja użytkownika | Dezaktywowane konto nie może rozpocząć nowej sesji | Wysoki |
-
-Wynik UAT powinien zawierać: ID przypadku, tester, datę, dane testowe bez danych osobowych, wynik, dowód, opis odchylenia i właściciela poprawki.
-
-## 6. Gotowość do startu
-
-- [ ] Zakres, właściciele i kontakty są aktualne.
-- [ ] Zależności IT zostały potwierdzone przez ich właścicieli.
-- [ ] Krytyczne scenariusze UAT zakończyły się wynikiem pozytywnym lub mają zaakceptowane obejście.
-- [ ] Błędy blokujące mają właściciela i decyzję go/no-go.
-- [ ] Użytkownicy znają podstawowe zadania i sposób zgłaszania problemów.
-- [ ] Lista ról i dostępów została przejrzana przez klienta.
-- [ ] Kanał wsparcia, zakres stabilizacji i sposób eskalacji zostały potwierdzone.
-- [ ] Klient zna warunki wycofania lub zatrzymania uruchomienia.
-
-## 7. Szkolenie i przekazanie
-
-Szkolenie obejmuje logowanie, typowy przebieg zlecenia, kontrolę statusu, najczęstsze błędy i sposób zgłoszenia problemu. Przekazanie do wsparcia zawiera zakres wdrożenia, konfigurację, znane ograniczenia, otwarte sprawy, kontakt do dostawcy oraz kroki pierwszej diagnozy.
