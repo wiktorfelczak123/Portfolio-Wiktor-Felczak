@@ -1,30 +1,21 @@
-# Portfolio projektów Wiktora Felczaka
+# Portfolio — Wiktor Felczak
 
-Portfolio pokazuje doświadczenie w koordynacji wdrożeń B2B, onboardingu klientów, testach UAT, wsparciu aplikacji i dokumentacji. Zawiera cztery samodzielne demonstracje oraz dwa zanonimizowane ujęcia doświadczenia zawodowego.
+Portfolio prezentuje konkretne przykłady pracy przy wdrożeniach B2B, integracjach, testach UAT, jakości danych i dokumentacji. Opisy są zanonimizowane i przygotowane do publikacji na podstawie doświadczenia zawodowego; nie są kopiami dokumentów pracodawcy.
 
-Pełne portfolio case studies można pobrać jako [edytowalny dokument Word](documents/Wiktor-Felczak-Portfolio-Case-Studies.docx) lub [PDF](documents/Wiktor-Felczak-Portfolio-Case-Studies.pdf).
+## Przykłady pracy
 
-## Projekty
-
-| Projekt | Co pokazuje | Materiały |
+| Obszar | Przykład i rezultat | Materiał |
 |---|---|---|
-| Zestaw API i UAT | Testowanie integracji, analiza odpowiedzi HTTP i dokumentowanie przypadków | [README](projects/01-api-uat-kit/README.md) |
-| Studium wdrożenia | Harmonogram, zależności, ryzyka, UAT, szkolenie i gotowość do uruchomienia | [README](projects/02-implementation-case-study/README.md) |
-| Analiza zgłoszeń | SQL, Excel, wskaźniki i trendy na danych syntetycznych | [README](projects/03-ticket-analysis/README.md) · [arkusz Excel](projects/03-ticket-analysis/ticket-analysis.xlsx) |
-| Demonstracja bazy wiedzy | Fikcyjne źródła, pytania kontrolne i odwołania do materiałów | [README](projects/04-knowledge-check-demo/README.md) |
-| Dokumentacja i test wiedzy | Zanonimizowany opis opracowania materiałów wdrożeniowych i przygotowania testu dla zespołu | [README](projects/05-process-documentation-case-study/README.md) |
-| Case studies z doświadczenia zawodowego | Cztery zanonimizowane przykłady: wdrożenia, integracje, UAT i dokumentacja | [README](projects/06-work-experience-case-studies/README.md) |
+| Wdrożenia B2B | 13 uruchomień w około 8 miesięcy; średnio około 18 dni roboczych od kick-offu do startu; do 10 projektów równolegle | [Opis przypadku i plan referencyjny](projects/02-implementation-case-study/README.md) |
+| Integracje i diagnostyka | Koordynacja wymagań API; analiza logów aplikacji w Plesk podczas problemu po aktualizacji aplikacji mobilnej i przekazanie raportu dostawcy | [Opis przypadku i karta przekazania](projects/01-api-uat-kit/README.md) |
+| UAT i jakość danych | Ponad 20 usprawnień; około 60% mniej niezgodności po normalizacji numerów; ponad 800 rekordów wyjaśnionych na jednej zlewni | [Opis przypadku i checklista UAT](projects/03-ticket-analysis/README.md) |
+| Dokumentacja i onboarding | 10 samodzielnie opracowanych źródeł; test wygenerowany w NotebookLM wykorzystywany w zespole; szkolenia dla ponad 400 użytkowników; 15% mniej powtarzalnych zgłoszeń | [Opis przypadku i rejestr źródeł](projects/04-knowledge-check-demo/README.md) |
 
-## Zakres materiałów
+## Pełne case studies
 
-Projekty 1–4 są demonstracyjne. Dane w analizie zgłoszeń są syntetyczne, a opis wdrożenia i materiały bazy wiedzy są fikcyjne. Projekty 5–6 opisują doświadczenie zawodowe w formie zanonimizowanej; nie zawierają oryginalnych materiałów pracodawcy, danych klientów ani treści wewnętrznego testu. Test wygenerowany w Google NotebookLM na podstawie opracowanych źródeł jest wykorzystywany w zespole.
+Zbiorczy opis czterech przypadków, zakresu odpowiedzialności i narzędzi znajduje się w [case studies z doświadczenia zawodowego](projects/06-work-experience-case-studies/README.md).
 
-## Jak zacząć
+## Anonimizacja i źródła informacji
 
-- Projekt API: Python 3, Postman; instrukcja uruchomienia lokalnego mock API znajduje się w jego README.
-- Studium wdrożenia: otwórz dokument Markdown z planem i checklistami.
-- Analiza zgłoszeń: arkusz Excel zawiera podsumowanie i syntetyczne dane; zapytania SQL są w osobnym pliku.
-- Demonstracja bazy wiedzy: porównaj fikcyjne źródła z pytaniami i kluczem odpowiedzi.
-- Zanonimizowane studium dokumentacji: zobacz opis opracowania materiałów i wykorzystania testu wiedzy.
-- Case studies: poznaj przykłady koordynacji wdrożeń, diagnostyki integracji, testów UAT i onboardingu.
+Nazwy klientów, systemów i dostawców oraz szczegóły techniczne zostały pominięte lub uogólnione. Repozytorium nie zawiera logów, rekordów klientów, oryginalnych źródeł dokumentacji ani treści testu wewnętrznego. Materiały takie jak plan referencyjny, karta incydentu, checklista UAT i rejestr źródeł są publicznymi opracowaniami przygotowanymi na podstawie opisanego doświadczenia, a nie oryginalnymi plikami firmowymi. Szacunek spadku odsetka nieprzygotowanych firm z około 70% do około 30% jest własną estymacją, nie wynikiem formalnego pomiaru.
 
