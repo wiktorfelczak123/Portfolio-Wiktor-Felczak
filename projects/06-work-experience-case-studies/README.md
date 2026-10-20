@@ -22,9 +22,9 @@ Cztery zanonimizowane przykłady pracy przy wdrożeniach systemu B2B. Pokazują 
 
 **Wyzwanie:** koordynować połączenie systemu z oprogramowaniem zewnętrznych stacji i przekazywać dostawcom informacje pomocne w diagnozie.
 
-**Mój wkład:** uzgadniałem wymagania sieciowe, porty, certyfikaty i protokoły. Gdy po aktualizacji dostawcy pojawił się problem z aplikacją mobilną, sprawdziłem logi aplikacji w panelu Plesk, przygotowałem raport i monitorowałem poprawkę.
+**Mój wkład:** uzgadniałem wymagania sieciowe, porty, certyfikaty i protokoły. Gdy po aktualizacji dostawcy pojawił się problem z aplikacją mobilną, sprawdziłem dostępne logi aplikacji w panelu Plesk, przygotowałem raport dla właściwego dostawcy i monitorowałem poprawkę.
 
-**Rezultat:** diagnoza trafiła do właściwego dostawcy. W Plesk odczytywałem logi aplikacji; nie administrowałem serwerami. W osobnym projekcie zdalne uporządkowanie konfiguracji pozwoliło wznowić pracę wstrzymaną przez prawie 2 lata.
+**Rezultat:** diagnoza trafiła do właściwego dostawcy. W osobnym projekcie zdalne uporządkowanie konfiguracji pozwoliło wznowić pracę wstrzymaną przez prawie 2 lata.
 
 ## 3. Testy UAT i jakość danych
 
