@@ -1,18 +1,22 @@
-# Demonstracja bazy wiedzy i testu
+# Dokumentacja wdrożeniowa i onboarding
 
-Przykładowy, całkowicie fikcyjny zestaw źródeł dla zespołu wsparcia. Pokazuje, jak uporządkować krótkie procedury i zbudować test, którego odpowiedzi można prześledzić do konkretnego materiału.
+Zanonimizowany opis opracowania materiałów dla firm korzystających z systemu oraz uporządkowania przekazywania wiedzy w zespole.
 
-## Materiały
+## Wykonana praca
 
-- `sources/01-account-access.md` – prosta procedura obsługi dostępów.
-- `sources/02-incident-triage.md` – przykładowy przebieg pierwszej diagnozy.
-- `sources/03-ticket-documentation.md` – wymagane informacje w zgłoszeniu.
-- `knowledge-check.md` – 10 pytań, klucz odpowiedzi i odwołania do źródeł.
+- samodzielne opracowanie 10 źródeł dokumentacji dla firm asenizacyjnych;
+- przygotowanie instrukcji, procedur, protokołów odbioru i materiałów wideo;
+- wykorzystanie Google NotebookLM do wygenerowania na podstawie materiałów testu wiedzy, który jest wykorzystywany w zespole;
+- szkolenia dla ponad 400 użytkowników.
 
-## Jak wykorzystać
+## Rezultat
 
-Przejrzyj najpierw źródła, odpowiedz na pytania bez zaglądania do klucza, a następnie sprawdź odwołania. Materiały można też wczytać do NotebookLM i poprosić o alternatywny test; wygenerowane odpowiedzi należy porównać z treścią źródeł przed użyciem.
+Uporządkowanie instrukcji w bazie wiedzy zmniejszyło liczbę powtarzalnych zgłoszeń o około 15%.
 
-## Ograniczenia
+## Materiały publiczne
 
-Wszystkie zasady są fikcyjne i służą wyłącznie ćwiczeniu. Zestaw pytań w repozytorium jest przykładowym materiałem redakcyjnym, nie wynikiem generowania przez NotebookLM i nie jest kopią dokumentacji pracodawcy.
+- [Rejestr 10 źródeł](source-register.md) pokazuje, jak opisać kompletność i aktualność dokumentacji bez publikowania jej treści.
+- [Kontrola jakości testu wiedzy](knowledge-check.md) opisuje weryfikację pytań wygenerowanych z materiałów.
+
+Oryginalne źródła oraz używany w zespole test pozostają prywatne. Dawne fikcyjne przykłady w katalogu sources nie są kopiami materiałów zawodowych ani częścią tego case study.
+
