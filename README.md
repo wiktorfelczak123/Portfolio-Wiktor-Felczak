@@ -20,7 +20,7 @@
 | Wiele zależności i równoległych wdrożeń | Prowadzenie planów, właścicieli zadań, opóźnień, UAT i gotowości do startu | [Koordynacja wdrożeń B2B](projects/02-implementation-case-study/README.md) · [plan referencyjny](projects/02-implementation-case-study/implementation-plan.md) |
 | Problem aplikacji po aktualizacji dostawcy | Sprawdzenie logów aplikacji w Plesk, raport dla właściwego dostawcy i monitorowanie poprawki | [Integracje i diagnostyka](projects/01-api-uat-kit/README.md) · [karta przekazania](projects/01-api-uat-kit/incident-handoff-template.md) |
 | Błędy zmian i rozbieżności danych | Scenariusze UAT, dokumentowanie błędów, retesty i propozycja normalizacji numerów | [UAT i jakość danych](projects/03-ticket-analysis/README.md) · [checklista UAT](projects/03-ticket-analysis/uat-checklist.md) |
-| Powtarzające się pytania użytkowników | Opracowanie źródeł, szkolenia i test wiedzy wygenerowany w NotebookLM na podstawie dokumentacji | [Dokumentacja i onboarding](projects/04-knowledge-check-demo/README.md) · [rejestr źródeł](projects/04-knowledge-check-demo/source-register.md) |
+| Powtarzające się pytania użytkowników | Opracowanie źródeł, szkolenia i przygotowanie podstaw pod planowany test wiedzy dla zespołu w Google NotebookLM | [Dokumentacja i onboarding](projects/04-knowledge-check-demo/README.md) · [rejestr źródeł](projects/04-knowledge-check-demo/source-register.md) |
 
 ## Jak pracuję
 
@@ -31,12 +31,10 @@
 
 ## Narzędzia i obszary
 
-**Wdrożenia:** Bitrix24, Leantime, Excel · **Integracje:** REST API, JSON, kody HTTP, Postman · **Jakość:** UAT, retesty, analiza rozbieżności danych · **Dokumentacja:** Google NotebookLM · **Diagnostyka:** Plesk — odczyt logów aplikacji.
+**Wdrożenia:** Bitrix24, Leantime, Excel · **Integracje:** REST API, JSON, kody HTTP, Postman · **Jakość:** UAT, retesty, analiza rozbieżności danych · **Dokumentacja:** opracowywanie źródeł wiedzy · **Diagnostyka:** Plesk — odczyt logów aplikacji.
 
 ## Zakres i rzetelność
 
-Case studies są zanonimizowane. Repozytorium nie zawiera danych klientów, logów, oryginalnych materiałów pracodawcy ani treści testu wewnętrznego. Plan, karty i checklisty są opracowaniami portfolio, a nie kopiami dokumentów firmowych. Szacunek zmiany gotowości klientów z około 70% do około 30% jest moją estymacją, nie wynikiem formalnego pomiaru. W katalogach pozostają starsze pliki ćwiczeń technicznych i syntetycznej analizy — są oznaczone jako archiwalne i nie stanowią dowodu osiągnięć zawodowych.
+Case studies są zanonimizowane. Repozytorium nie zawiera danych klientów, logów ani oryginalnych materiałów pracodawcy. Plan, karty i checklisty są opracowaniami portfolio, a nie kopiami dokumentów firmowych. Test wiedzy dla zespołu z wykorzystaniem Google NotebookLM jest planowany; publiczna checklista opisuje sposób jego przyszłej weryfikacji. Szacunek zmiany gotowości klientów z około 70% do około 30% jest moją estymacją, nie wynikiem formalnego pomiaru. W katalogach pozostają starsze pliki ćwiczeń technicznych i syntetycznej analizy — są oznaczone jako archiwalne i nie stanowią dowodu osiągnięć zawodowych.
 
 [Otwórz pełne case studies](projects/06-work-experience-case-studies/README.md)
-
-
