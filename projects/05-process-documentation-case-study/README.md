@@ -10,7 +10,7 @@ Ułatwić firmom korzystanie z systemu i dać zespołowi wspólny zestaw materia
 
 - Współtworzyłem z przełożoną dziewięcioetapowy proces wdrożeniowy, dodając monitorowanie opóźnień i uzupełniając go o procedurę szkoleniową.
 - Samodzielnie opracowałem 10 źródeł dokumentacji dla firm korzystających z systemu.
-- Wczytałem materiały do Google NotebookLM i wygenerowałem na ich podstawie test wiedzy przeznaczony do planowanego wykorzystania w zespole. Test nie został opisany jako wdrożony.
+- Wczytałem materiały do Google NotebookLM i wygenerowałem na ich podstawie test wiedzy, który jest wykorzystywany w zespole.
 - Przeprowadziłem szkolenia dla ponad 400 użytkowników i przygotowywałem instrukcje, protokoły oraz materiały wideo.
 
 ## Obserwowane efekty
@@ -20,3 +20,4 @@ Po zmianie procesu obserwowałem mniej firm bez kompletnych danych przed uruchom
 ## Ochrona materiałów
 
 Oryginalne źródła i wygenerowany test pozostają poza repozytorium. Publiczny przykład metod porządkowania wiedzy, oparty na fikcyjnych materiałach, znajduje się w [demonstracji bazy wiedzy](../04-knowledge-check-demo/README.md).
+
