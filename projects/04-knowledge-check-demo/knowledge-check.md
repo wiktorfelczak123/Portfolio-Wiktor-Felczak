@@ -1,6 +1,6 @@
 # Plan weryfikacji testu wiedzy
 
-Samodzielnie opracowałem 10 źródeł dokumentacji dla firm asenizacyjnych. W kolejnym etapie planuję wykorzystać Google NotebookLM do przygotowania testu wiedzy dla zespołu. Poniższa lista porządkuje kryteria, które zastosuję do pytań przed ich wykorzystaniem. Nie opisuje wdrożonego testu ani nie zawiera pytań lub odpowiedzi z materiałów wewnętrznych.
+Samodzielnie opracowałem 10 źródeł dokumentacji dla firm asenizacyjnych. W kolejnym etapie planuję wykorzystać Google NotebookLM do przygotowania testu wiedzy dla zespołu. Poniższa lista porządkuje kryteria, które zastosuję do pytań przed ich wykorzystaniem. Dokument skupia się na jakości pytań i nie publikuje treści testu ani materiałów wewnętrznych.
 
 ## Kryteria przeglądu pytań
 
