@@ -1,59 +1,48 @@
 # Case studies z doświadczenia zawodowego
 
-Cztery zanonimizowane przykłady pracy przy wdrożeniach systemu B2B. Nie zawierają danych klientów ani kopii dokumentacji wewnętrznej.
+Cztery zanonimizowane przykłady pracy przy wdrożeniach systemu B2B. Pokazują sposób działania i rezultaty, bez danych klientów ani kopii dokumentacji wewnętrznej.
+
+## Wartość w skrócie
+
+- 13 uruchomionych wdrożeń w około 8 miesięcy; średnio około 18 dni roboczych od kick-offu do startu;
+- do 10 projektów prowadzonych równolegle;
+- ponad 20 usprawnień współdefiniowanych i testowanych;
+- około 60% mniej niezgodności po normalizacji numerów;
+- 10 opracowanych źródeł dokumentacji, szkolenia dla ponad 400 użytkowników i około 15% mniej powtarzalnych zgłoszeń.
 
 ## 1. Koordynacja wdrożenia i harmonogramowanie
 
-**Cel:** prowadzenie firm asenizacyjnych i zlewni od kick-offu do uruchomienia produkcyjnego oraz jasny podział zadań między klienta, dostawcę i zespół.
+**Wyzwanie:** prowadzić firmy asenizacyjne i zlewnie od kick-offu do startu produkcyjnego oraz jasno rozdzielać zadania między klienta, dostawcę i zespół.
 
-**Działania:**
+**Mój wkład:** tworzyłem około 30-dniowe plany, śledziłem zależności w Bitrix24, Leantime i dashboardzie Excel oraz współtworzyłem 9-etapowy proces wdrożenia z monitorowaniem opóźnień i procedurą szkoleniową.
 
-- Tworzenie 30-dniowych planów prac i śledzenie zależności w Bitrix24, Leantime oraz własnym dashboardzie Excel.
-- Wspólny rozwój 9-etapowego procesu wdrożenia, w tym monitorowania opóźnień i procedury szkoleniowej.
-
-**Rezultaty:**
-
-- 13 wdrożeń uruchomionych w około 8 miesięcy; średnio około 18 dni roboczych od kick-offu do startu.
-- 8 wdrożeń zakończonych w standardowym, około miesięcznym planie; do 10 projektów prowadzonych równolegle.
-- Udział nieprzygotowanych firm przed startem automatyzacji zmniejszył się z około 70% do około 30%.
+**Rezultat:** 13 wdrożeń w około 8 miesięcy, średnio około 18 dni roboczych od kick-offu do startu; 8 zakończonych w standardowym, około miesięcznym planie; do 10 projektów równolegle. Udział nieprzygotowanych firm przed startem automatyzacji szacuję na spadek z około 70% do około 30%; to własna estymacja, nie formalny pomiar.
 
 ## 2. Integracje API i diagnostyka problemów aplikacji
 
-**Cel:** koordynacja komunikacji systemu z oprogramowaniem zewnętrznych stacji oraz przekazywanie dostawcom użytecznych informacji o błędach.
+**Wyzwanie:** koordynować połączenie systemu z oprogramowaniem zewnętrznych stacji i przekazywać dostawcom informacje pomocne w diagnozie.
 
-**Działania:**
+**Mój wkład:** uzgadniałem wymagania sieciowe, porty, certyfikaty i protokoły. Gdy po aktualizacji dostawcy pojawił się problem z aplikacją mobilną, sprawdziłem logi aplikacji w panelu Plesk, przygotowałem raport i monitorowałem poprawkę.
 
-- Uzgadnianie wymagań sieciowych, portów, certyfikatów i protokołów dla integracji API.
-- Podczas problemu z aplikacją mobilną po aktualizacji dostawcy analiza logów aplikacji w panelu Plesk, przygotowanie raportu i monitorowanie poprawki.
-- Zdalne odblokowanie konfiguracji oprogramowania w projekcie wstrzymanym przez prawie 2 lata.
-
-**Rezultat:** diagnoza została przekazana właściwemu dostawcy, a konfiguracja długo wstrzymanego projektu została odblokowana. Praca w Plesk obejmowała odczyt logów aplikacji.
+**Rezultat:** diagnoza trafiła do właściwego dostawcy. W Plesk odczytywałem logi aplikacji; nie administrowałem serwerami. W osobnym projekcie zdalne uporządkowanie konfiguracji pozwoliło wznowić pracę wstrzymaną przez prawie 2 lata.
 
 ## 3. Testy UAT i jakość danych
 
-**Cel:** ograniczenie błędów produkcyjnych i niezgodności danych przed przekazaniem zmian użytkownikom.
+**Wyzwanie:** ograniczać błędy przed przekazaniem zmian użytkownikom i poprawić spójność danych operacyjnych.
 
-**Działania:**
+**Mój wkład:** współdefiniowałem i testowałem z deweloperami ponad 20 usprawnień, przygotowywałem scenariusze pozytywne, negatywne i skrajne, dokumentowałem błędy i wykonywałem retesty. Zaproponowałem normalizację numerów rejestracyjnych oraz samodzielnie wyjaśniałem rozbieżności.
 
-- Współdefiniowanie i testowanie ponad 20 usprawnień z deweloperami.
-- Przygotowywanie scenariuszy UAT dla ścieżek pozytywnych, negatywnych i skrajnych, dokumentowanie błędów oraz retesty.
-- Propozycja normalizacji numerów rejestracyjnych i samodzielne wyjaśnianie rozbieżności w danych.
-
-**Rezultaty:** normalizacja ograniczyła niezgodności o około 60%. Ręcznie rozwiązano setki rozbieżności, w tym ponad 800 rekordów na jednej zlewni.
+**Rezultat:** około 60% mniej niezgodności po normalizacji; ręcznie wyjaśnione setki rozbieżności, w tym ponad 800 rekordów na jednej zlewni.
 
 ## 4. Dokumentacja i onboarding użytkowników
 
-**Cel:** ułatwienie użytkownikom samodzielnej pracy oraz uporządkowanie przekazywania wiedzy klientom i zespołowi.
+**Wyzwanie:** ułatwić użytkownikom samodzielną pracę i uporządkować przekazywanie wiedzy klientom oraz zespołowi.
 
-**Działania:**
+**Mój wkład:** samodzielnie opracowałem 10 źródeł dokumentacji, przygotowałem procedury, protokoły odbioru, instrukcje i filmy, przeprowadziłem szkolenia dla ponad 400 użytkowników. Na podstawie dokumentacji wykorzystałem Google NotebookLM do wygenerowania testu wiedzy używanego w zespole.
 
-- Samodzielne opracowanie 10 źródeł dokumentacji dla firm asenizacyjnych.
-- Wykorzystanie Google NotebookLM do wygenerowania na podstawie materiałów testu wiedzy wykorzystywanego w zespole.
-- Przygotowanie procedury wdrożenia, protokołów odbioru, instrukcji i filmów oraz szkolenia dla ponad 400 użytkowników.
+**Rezultat:** uporządkowanie instrukcji w bazie wiedzy zmniejszyło liczbę powtarzalnych zgłoszeń o około 15%.
 
-**Rezultat:** uporządkowanie instrukcji w bazie wiedzy zmniejszyło liczbę powtarzalnych zgłoszeń o 15%.
+## Narzędzia
 
-## Zakres narzędzi
-
-Bitrix24, Leantime, Excel, REST API, JSON, kody HTTP, Postman, Plesk (analiza logów aplikacji), UAT.
+Bitrix24, Leantime, Excel, REST API, JSON, kody HTTP, Postman, Google NotebookLM, Plesk (odczyt logów aplikacji), UAT.
 
