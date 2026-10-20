@@ -9,7 +9,7 @@
 | Obszar | Rezultat |
 |---|---|
 | Wdrożenia | 13 uruchomień w około 8 miesięcy; średnio około 18 dni roboczych od kick-offu do startu; do 10 projektów równolegle |
-| Gotowość klientów | 8 wdrożeń zakończonych w standardowym, około miesięcznym planie; udział nieprzygotowanych firm szacuję na spadek z około 70% do około 30% |
+| Gotowość klientów | 8 wdrożeń zakończonych w standardowym, około miesięcznym planie; szacuję, że udział nieprzygotowanych firm zmniejszył się z około 70% do około 30% |
 | UAT i dane | Ponad 20 usprawnień współdefiniowanych i testowanych; około 60% mniej niezgodności po normalizacji numerów; ponad 800 rekordów wyjaśnionych na jednej zlewni |
 | Dokumentacja i onboarding | 10 opracowanych źródeł; szkolenia dla ponad 400 użytkowników; około 15% mniej powtarzalnych zgłoszeń |
 
@@ -38,4 +38,5 @@
 Case studies są zanonimizowane. Repozytorium nie zawiera danych klientów, logów, oryginalnych materiałów pracodawcy ani treści testu wewnętrznego. Plan, karty i checklisty są opracowaniami portfolio, a nie kopiami dokumentów firmowych. Szacunek zmiany gotowości klientów z około 70% do około 30% jest moją estymacją, nie wynikiem formalnego pomiaru. W katalogach pozostają starsze pliki ćwiczeń technicznych i syntetycznej analizy — są oznaczone jako archiwalne i nie stanowią dowodu osiągnięć zawodowych.
 
 [Otwórz pełne case studies](projects/06-work-experience-case-studies/README.md)
+
 
