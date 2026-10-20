@@ -11,7 +11,7 @@ Zanonimizowany opis opracowania materiałów dla firm korzystających z systemu 
 
 ## Planowany kolejny etap
 
-Na podstawie opracowanych źródeł planuję wykorzystać Google NotebookLM do przygotowania testu wiedzy dla zespołu. Test nie jest jeszcze opisany w portfolio jako wdrożony; plik [Plan weryfikacji testu wiedzy](knowledge-check.md) porządkuje kryteria, które będą przydatne przed jego wykorzystaniem.
+Na podstawie opracowanych źródeł planuję wykorzystać Google NotebookLM do przygotowania testu wiedzy dla zespołu. Publiczna checklista pokazuje kryteria kontroli pytań przed udostępnieniem testu użytkownikom.
 
 ## Materiały publiczne
 
