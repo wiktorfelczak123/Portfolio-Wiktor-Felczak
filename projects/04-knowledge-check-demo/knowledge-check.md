@@ -1,24 +1,21 @@
-# Kontrola jakości testu wiedzy
+# Plan weryfikacji testu wiedzy
 
-W pracy wykorzystano Google NotebookLM do wygenerowania testu na podstawie 10 opracowanych źródeł dokumentacji. Test jest wykorzystywany w zespole. Sama treść testu i źródła pozostają poza publicznym repozytorium.
+Samodzielnie opracowałem 10 źródeł dokumentacji dla firm asenizacyjnych. W kolejnym etapie planuję wykorzystać Google NotebookLM do przygotowania testu wiedzy dla zespołu. Poniższa lista porządkuje kryteria, które zastosuję do pytań przed ich wykorzystaniem. Nie opisuje wdrożonego testu ani nie zawiera pytań lub odpowiedzi z materiałów wewnętrznych.
 
-Poniższa checklista opisuje sposób przeglądu testu przed użyciem. Nie zawiera pytań ani odpowiedzi z materiału wewnętrznego.
+## Kryteria przeglądu pytań
 
-## Przegląd pytań
-
-- [ ] Każde pytanie dotyczy treści znajdującej się w zatwierdzonym źródle.
-- [ ] Odpowiedź można wskazać w konkretnym fragmencie źródła.
-- [ ] Pytanie nie zakłada informacji spoza materiałów.
-- [ ] Sformułowanie jest jednoznaczne dla docelowej grupy użytkowników.
-- [ ] Warianty odpowiedzi nie ujawniają danych poufnych ani osobowych.
-- [ ] Pytania i odpowiedzi sprawdziła osoba znająca procedurę.
-- [ ] Niejasne lub niepoprawne elementy poprawiono przed udostępnieniem.
+- [ ] Każde pytanie powinno dotyczyć treści z zatwierdzonego źródła.
+- [ ] Odpowiedź powinna być możliwa do wskazania w konkretnym fragmencie źródła.
+- [ ] Pytanie nie powinno zakładać informacji spoza materiałów.
+- [ ] Sformułowanie powinno być jednoznaczne dla docelowej grupy użytkowników.
+- [ ] Warianty odpowiedzi nie mogą ujawniać danych poufnych ani osobowych.
+- [ ] Pytania i odpowiedzi powinien sprawdzić ktoś znający procedurę.
+- [ ] Niejasne lub niepoprawne elementy należy poprawić przed udostępnieniem.
 
 ## Rejestr przeglądu
 
 | ID pytania | Źródło potwierdzenia | Poprawność merytoryczna | Jasność | Decyzja / właściciel |
 |---|---|---|---|---|
-| [prywatny] | [prywatny] | [do weryfikacji] | [do weryfikacji] | [do uzupełnienia] |
+| [do uzupełnienia] | [do uzupełnienia] | [do weryfikacji] | [do weryfikacji] | [do uzupełnienia] |
 
-To publiczne opracowanie procesu weryfikacji, nie kopia firmowego testu. Wygenerowana treść nie powinna trafiać do użytkowników bez sprawdzenia jej zgodności ze źródłami.
-
+To publiczne opracowanie planu kontroli jakości, a nie kopia firmowego testu. Oryginalne źródła dokumentacji i ewentualna treść testu pozostają poza publicznym repozytorium.
