@@ -38,11 +38,10 @@ Cztery zanonimizowane przykłady pracy przy wdrożeniach systemu B2B. Pokazują 
 
 **Wyzwanie:** ułatwić użytkownikom samodzielną pracę i uporządkować przekazywanie wiedzy klientom oraz zespołowi.
 
-**Mój wkład:** samodzielnie opracowałem 10 źródeł dokumentacji, przygotowałem procedury, protokoły odbioru, instrukcje i filmy, przeprowadziłem szkolenia dla ponad 400 użytkowników. Na podstawie dokumentacji wykorzystałem Google NotebookLM do wygenerowania testu wiedzy używanego w zespole.
+**Mój wkład:** samodzielnie opracowałem 10 źródeł dokumentacji, przygotowałem procedury, protokoły odbioru, instrukcje i filmy oraz przeprowadziłem szkolenia dla ponad 400 użytkowników. Kolejnym, planowanym etapem jest wykorzystanie Google NotebookLM do przygotowania testu wiedzy dla zespołu na podstawie tych źródeł.
 
 **Rezultat:** uporządkowanie instrukcji w bazie wiedzy zmniejszyło liczbę powtarzalnych zgłoszeń o około 15%.
 
 ## Narzędzia
 
-Bitrix24, Leantime, Excel, REST API, JSON, kody HTTP, Postman, Google NotebookLM, Plesk (odczyt logów aplikacji), UAT.
-
+Bitrix24, Leantime, Excel, REST API, JSON, kody HTTP, Postman, UAT, Plesk (odczyt logów aplikacji). Google NotebookLM — planowane wykorzystanie do przygotowania testu wiedzy.
