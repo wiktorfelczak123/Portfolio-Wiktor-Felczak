@@ -6,17 +6,16 @@ Zanonimizowany opis opracowania materiałów dla firm korzystających z systemu 
 
 - samodzielne opracowanie 10 źródeł dokumentacji dla firm asenizacyjnych;
 - przygotowanie instrukcji, procedur, protokołów odbioru i materiałów wideo;
-- wykorzystanie Google NotebookLM do wygenerowania na podstawie materiałów testu wiedzy, który jest wykorzystywany w zespole;
-- szkolenia dla ponad 400 użytkowników.
+- szkolenia dla ponad 400 użytkowników;
+- uporządkowanie instrukcji w bazie wiedzy, po którym liczba powtarzalnych zgłoszeń zmniejszyła się o około 15%.
 
-## Rezultat
+## Planowany kolejny etap
 
-Uporządkowanie instrukcji w bazie wiedzy zmniejszyło liczbę powtarzalnych zgłoszeń o około 15%.
+Na podstawie opracowanych źródeł planuję wykorzystać Google NotebookLM do przygotowania testu wiedzy dla zespołu. Test nie jest jeszcze opisany w portfolio jako wdrożony; plik [Plan weryfikacji testu wiedzy](knowledge-check.md) porządkuje kryteria, które będą przydatne przed jego wykorzystaniem.
 
 ## Materiały publiczne
 
-- [Rejestr 10 źródeł](source-register.md) pokazuje, jak opisać kompletność i aktualność dokumentacji bez publikowania jej treści.
-- [Kontrola jakości testu wiedzy](knowledge-check.md) opisuje weryfikację pytań wygenerowanych z materiałów.
+- [Rejestr 10 źródeł](source-register.md) pokazuje sposób opisu kompletności i aktualności dokumentacji bez publikowania jej treści.
+- [Plan weryfikacji testu wiedzy](knowledge-check.md) zbiera kryteria kontroli pytań przed ich wykorzystaniem.
 
-Oryginalne źródła oraz używany w zespole test pozostają prywatne. Dawne fikcyjne przykłady w katalogu sources nie są kopiami materiałów zawodowych ani częścią tego case study.
-
+Oryginalne źródła pozostają prywatne. Dawne przykłady w katalogu sources są oznaczone jako fikcyjne i nie stanowią kopii materiałów zawodowych ani części tego case study.
