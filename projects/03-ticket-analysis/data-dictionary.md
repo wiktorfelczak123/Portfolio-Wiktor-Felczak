@@ -1,17 +1,12 @@
-# Słownik danych
+# Interpretacja zanonimizowanego case study
 
-| Pole | Znaczenie | Przykład | Uwagi |
-|---|---|---|---|
-| Ticket_ID | Syntetyczny identyfikator zgłoszenia | T-0001 | Nie odpowiada prawdziwemu systemowi ticketowemu |
-| Opened_Date | Data otwarcia | 2026-01-04 | Zakres demonstracyjny: styczeń–kwiecień 2026 |
-| Category | Główna kategoria problemu | Integracja | Kategorie są fikcyjne |
-| Channel | Kanał przyjęcia | Email | Wartość demonstracyjna |
-| Priority | Priorytet obsługi | P2 | Nie wynika z rzeczywistego SLA |
-| Severity | Wpływ problemu | High | Definicja demonstracyjna |
-| Resolution_Hours | Czas rozwiązania w godzinach | 8.5 | Puste dla otwartych zgłoszeń |
-| Escalated | Czy zgłoszenie eskalowano | Yes / No | Klasyfikacja syntetyczna |
-| Repeat_Issue | Czy problem jest powtarzalny | Yes / No | Etykieta syntetyczna |
-| Status | Stan zgłoszenia | Closed / Open | Otwarte rekordy nie mają czasu rozwiązania |
-| Queue | Kolejka obsługi | L2 | Podział przykładowy |
+To case study opisuje wyniki pracy na danych operacyjnych, ale repozytorium nie zawiera rekordów źródłowych ani zrzutów z systemu. Wartości zostały podane jako uogólnione rezultaty z doświadczenia zawodowego.
 
-Wszystkie rekordy zostały wygenerowane do portfolio. Nie zawierają danych rzeczywistych ani identyfikatorów osób lub organizacji.
+| Wskaźnik | Wartość opisana w case study | Ograniczenie interpretacji |
+|---|---:|---|
+| Współdefiniowane i testowane usprawnienia | ponad 20 | Liczba łączna; szczegóły zmian nie są publikowane |
+| Ograniczenie niezgodności po normalizacji numerów | około 60% | Wynik przybliżony; brak publicznego zestawu rekordów i mianownika |
+| Ręcznie wyjaśnione rekordy na jednej zlewni | ponad 800 | Wartość zagregowana; bez identyfikatorów lub danych klientów |
+
+Szablon przebiegu testów znajduje się w [checkliście UAT](uat-checklist.md). Pliki dawnej syntetycznej demonstracji zgłoszeń nie są źródłem powyższych wartości.
+
